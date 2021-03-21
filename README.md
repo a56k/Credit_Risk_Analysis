@@ -9,4 +9,5 @@ The main objective of this analysis consist of analyzing how different machine l
 ### Results
 --------------------------------------------------------
 The first Test we ran was the Naive Random Oversampling, and it provided the following results
-![Screenshot](Naive_oversampling.png)
+
+![alt text](img/Naive_oversampling.png)
