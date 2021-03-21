@@ -67,3 +67,10 @@ Recall sits at 94%
 ![alt text](img/easy_ensemble_adboost_classifier.png)
 
 ----------------------------------------------------------------------
+
+### Summary of the Results
+
+Using all the above models, we are now able to analyze whihc model best predicts the resuls we seek to assess. 
+Random oversampling involves randomly duplicating examples in the minority class, whereas random undersampling involves randomly deleting examples from the majority class. As these two transforms are performed on separate classes, the order in which they are applied to the training dataset does not matter.
+SMOTE works by selecting examples that are close in the feature space, drawing a line between the examples in the feature space and drawing a new sample as a point along that line.
+The Best method for us ended up being the Easy Ensemble AdaBoost model - whihc is an iterative ensemble method that builds a strong classifier by combining multiple poorly performing classifiers so thatwill **get high accuracy strong classifier- (94% in our case)**. Accordingly, based on the model's objective, it has in each iteration, tried to provide an excellent fit for our credit risks loan example by minimizing training error. 
